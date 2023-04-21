@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Abstract Classes in Java</title>
+    <link rel="stylesheet" href="/WT Lab/groupAss/style.css">
+  </head>
+  <body>
+    <div class = "img">
+    <header>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#examples">Examples</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div class="paras">
+          <h1 id = "abs">Abstract Class</h1>
+          <p>Abstract classes are classes that cannot be instantiated, but can be subclassed. They are used to define a common interface for a group of subclasses. Abstract classes can have abstract methods, which are declared but not implemented in the abstract class. Subclasses of the abstract class must implement these methods.</p>
+          <p>Abstract classes are useful for creating hierarchies of classes that share common methods and properties. They can also be used to enforce a certain structure or behavior in subclasses.</p>
+          <h3 id = "prop">Properties of Abstract Class</h3>
+          <ul>
+            <li>An instance of an abstract class can not be created.</li>
+            <li>Constructors are allowed.</li>
+            <li>We can have an abstract class without any abstract method.</li>
+            <li>There can be a final method in abstract class but any abstract method in class(abstract class) can not be declared as final  or in simpler terms final method can not be abstract itself as it will yield an error: “Illegal combination of modifiers: abstract and final”</li>
+            <li>We can define static methods in an abstract class</li>
+            <li>We can use the abstract keyword for declaring top-level classes (Outer class) as well as inner classes as abstract</li>
+            <li>If a class contains at least one abstract method then compulsory should declare a class as abstract </li>
+            <li>If the Child class is unable to provide implementation to all abstract methods of the Parent class then we should declare that Child class as abstract so that the next level Child class should provide implementation to the remaining abstract method</li>
+          </ul>
+        </div>
+      </section>
+      <section id="resources">
+        <div class="paras">
+          <h2 id = "res">Resources</h2>
+          <ul>
+            <li><a href="https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html">Oracle Java Tutorials: Abstract Methods and Classes</a></li>
+            <li><a href="https://www.geeksforgeeks.org/abstract-classes-in-java/">GeeksforGeeks: Abstract Classes in Java</a></li>
+            <li><a href="https://www.baeldung.com/java-abstract-class">Baeldung: Java Abstract Class</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    </div>
+  </body>
+</html>
